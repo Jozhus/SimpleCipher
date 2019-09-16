@@ -8,6 +8,7 @@ public class simpleCipher {
 
     public simpleCipher() {
         this.key = new Queue<Integer>();
+        this.key.enqueue(0); //Default case
     }
 
     public simpleCipher(int[] key) {
